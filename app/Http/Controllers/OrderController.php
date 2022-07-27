@@ -12,10 +12,38 @@ class OrderController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
         $data = [];
-        $data['orders'] = Order::all();
+        $latitude = 25.286106;
+        $longitude = 51.534817;
+        $radius = $request->radius ? $request->radius*1000 : 0;
+        if ($radius != 0) {
+            $data['orders'] = Order::selectRaw("id, +
+            date, amount, latitude, longitude, status,
+            ( 6371000 * acos( cos( radians(?) ) *
+              cos( radians( latitude ) )
+              * cos( radians( longitude ) - radians(?)
+              ) + sin( radians(?) ) *
+              sin( radians( latitude ) ) )
+            ) AS distance", [$latitude, $longitude, $latitude])
+                ->where('status', '=', 'delivered')
+                ->having("distance", "<", $radius)
+                ->orderBy("date",'desc')
+                ->filter($request)->get();
+        } else {
+            $data['orders'] = Order::selectRaw("id, +
+            date, amount, latitude, longitude, status,
+            ( 6371000 * acos( cos( radians(?) ) *
+              cos( radians( latitude ) )
+              * cos( radians( longitude ) - radians(?)
+              ) + sin( radians(?) ) *
+              sin( radians( latitude ) ) )
+            ) AS distance", [$latitude, $longitude, $latitude])
+                ->where('status', '=', 'delivered')
+                ->orderBy("date",'desc')
+                ->filter($request)->get();
+        }
         return view('track-my-order',$data);
     }
 }

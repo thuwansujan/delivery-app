@@ -19,6 +19,7 @@ return new class extends Migration
             $table->double('latitude',10,8);
             $table->double('longitude',11,8);
             $table->date('date');
+            $table->string('status',255)->nullable();
             $table->timestamps();
         });
     }

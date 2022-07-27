@@ -22,6 +22,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.274882,
             'longitude' => 51.507095,
             'date' => '2022-06-11',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -31,6 +32,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.265234,
             'longitude' => 51.522032,
             'date' => '2022-06-12',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -40,6 +42,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.286266,
             'longitude' => 51.476368,
             'date' => '2022-06-13',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -49,6 +52,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.299964,
             'longitude' => 51.498987,
             'date' => '2022-06-14',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -58,6 +62,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.285687,
             'longitude' => 51.460151,
             'date' => '2022-06-15',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -67,6 +72,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.246321,
             'longitude' => 51.527367,
             'date' => '2022-06-16',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -76,6 +82,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.312310,
             'longitude' => 51.487037,
             'date' => '2022-06-17',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -85,6 +92,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.266423,
             'longitude' => 51.529322,
             'date' => '2022-06-18',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -94,6 +102,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.289116,
             'longitude' => 51.457089,
             'date' => '2022-06-19',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -103,6 +112,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.276781,
             'longitude' => 51.448141,
             'date' => '2022-06-20',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -112,6 +122,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.303836,
             'longitude' => 51.463836,
             'date' => '2022-06-21',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -121,6 +132,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.326437,
             'longitude' => 51.533926,
             'date' => '2022-06-22',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -130,6 +142,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.324033,
             'longitude' => 51.516902,
             'date' => '2022-06-23',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -139,6 +152,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.233100,
             'longitude' => 51.492352,
             'date' => '2022-06-24',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -148,6 +162,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.253891,
             'longitude' => 51.519859,
             'date' => '2022-06-25',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -157,6 +172,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.363578,
             'longitude' => 51.495743,
             'date' => '2022-06-26',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -166,6 +182,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.331908,
             'longitude' => 51.464468,
             'date' => '2022-06-27',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -175,6 +192,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.281833,
             'longitude' => 51.542845,
             'date' => '2022-06-28',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -184,6 +202,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.281833,
             'longitude' => 51.447512,
             'date' => '2022-06-29',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -193,6 +212,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.327140,
             'longitude' => 51.455801,
             'date' => '2022-06-30',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -211,6 +231,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-01',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -220,6 +241,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-02',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -229,6 +251,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-03',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -238,6 +261,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-04',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -247,6 +271,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-05',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -256,6 +281,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-06',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -265,6 +291,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-07',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -274,6 +301,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-08',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -283,6 +311,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-09',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -292,6 +321,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-10',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -301,6 +331,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-11',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -310,6 +341,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-12',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -319,6 +351,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-13',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -328,6 +361,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-14',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -337,6 +371,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-14',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -346,6 +381,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-14',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -355,6 +391,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-15',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -364,6 +401,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341444,
             'longitude' => 51.520990,
             'date' => '2022-06-16',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -378,6 +416,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.354044,
             'longitude' => 51.523627,
             'date' => '2022-06-11',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -387,6 +426,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.337698,
             'longitude' => 51.475772,
             'date' => '2022-06-12',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -396,6 +436,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.319987,
             'longitude' => 51.462207,
             'date' => '2022-06-13',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -405,6 +446,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.360854,
             'longitude' => 51.458816,
             'date' => '2022-06-14',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -414,6 +456,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.356087,
             'longitude' => 51.515337,
             'date' => '2022-06-15',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -423,6 +466,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.367664,
             'longitude' => 51.498381,
             'date' => '2022-06-16',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -432,6 +476,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.356427,
             'longitude' => 51.513830,
             'date' => '2022-06-17',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -441,6 +486,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.361875,
             'longitude' => 51.488207,
             'date' => '2022-06-18',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -450,6 +496,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.366302,
             'longitude' => 51.501396,
             'date' => '2022-06-19',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -459,6 +506,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.356768,
             'longitude' => 51.478410,
             'date' => '2022-06-20',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -468,6 +516,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.362556,
             'longitude' => 51.565076,
             'date' => '2022-06-21',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -477,6 +526,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.309087,
             'longitude' => 51.457309,
             'date' => '2022-06-22',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -486,6 +536,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.321690,
             'longitude' => 51.492352,
             'date' => '2022-06-23',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -495,6 +546,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.326118,
             'longitude' => 51.475396,
             'date' => '2022-06-24',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -504,6 +556,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.316581,
             'longitude' => 51.458439,
             'date' => '2022-06-25',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -513,6 +566,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.305402,
             'longitude' => 51.447310,
             'date' => '2022-06-26',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -522,6 +576,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.329566,
             'longitude' => 51.424672,
             'date' => '2022-06-27',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -531,6 +586,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.357038,
             'longitude' => 51.462000,
             'date' => '2022-06-28',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -540,6 +596,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.365435,
             'longitude' => 51.464992,
             'date' => '2022-06-29',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -549,6 +606,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.394773,
             'longitude' => 51.484380,
             'date' => '2022-06-30',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -563,6 +621,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.402686,
             'longitude' => 51.443144,
             'date' => '2022-06-01',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -572,6 +631,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.341319,
             'longitude' => 51.450151,
             'date' => '2022-06-02',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -581,6 +641,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.372615,
             'longitude' => 51.430207,
             'date' => '2022-06-03',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -590,6 +651,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.312086,
             'longitude' => 51.450421,
             'date' => '2022-06-04',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
@@ -599,6 +661,7 @@ class OrderSeeder extends Seeder
             'latitude' => 25.326094,
             'longitude' => 51.538282,
             'date' => '2022-06-05',
+            'status' => 'delivered',
             'created_at' => now(),
             'updated_at' => now()
         ]);
